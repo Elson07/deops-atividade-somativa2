@@ -29,7 +29,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
       - name: SAST
-        uses: AppThreat/sast-scan-action@master
+        uses: actions/sast-scan-action@master
         with:
           type: "javascript"
           path: '.'
