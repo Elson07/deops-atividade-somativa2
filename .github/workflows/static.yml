@@ -1,4 +1,4 @@
-name: CI
+name: CI AS2, monta página web 
 
 on:
   push:
