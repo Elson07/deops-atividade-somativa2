@@ -1,4 +1,4 @@
-name: Implantar conteudo estatico nas páginas
+name: Implantar página web
 
 on:
   push:
