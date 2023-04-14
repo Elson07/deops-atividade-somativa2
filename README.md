@@ -1,5 +1,8 @@
 # DevOsp atividade somativa 2
 
+## Link do App
+https://elson07.github.io/devops-atividade-somativa2/index.html
+ 
 ## Composição da aplicação 
 
 * javaScript 
@@ -29,3 +32,4 @@ Neste jogo o jogador controla uma raquete de matar mosquito, na qual tem que ace
 #### Na tela de Game Over o jogador pode;
  
 * Reiniciar o jogo, na qual é direcionado para tela inicial 
+
