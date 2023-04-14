@@ -30,6 +30,6 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: '.'
-      - name: Deploy to GitHub Pages
+      - name: Implementa a página no Git
         id: deployment
         uses: actions/deploy-pages@v2
