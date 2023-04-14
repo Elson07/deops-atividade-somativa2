@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="jogo.js"></script>
+</head>
+<body onresize="ajustaTamanhoPalcoJogo()">
+    <!--Imagen dos corações-->
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png" alt="">
+            <img id="v2" src="imagens/coracao_cheio.png" alt="">
+            <img id="v3" src="imagens/coracao_cheio.png" alt="">
+        </div>
+        <div class="cronometro">Tempo restante: <span id="cronometro"></span></div>
+    </div>
+    
+    <!--Instancia os mosquitos e mosta o cronometro-->
+    <script>
+        document.getElementById("cronometro").innerHTML = tempo;
+        var criaMosquito = setInterval(function(){
+            posicaoRandomica();
+        }, criaMosquitoTempo);
+    </script>
+
+</body>
+</html>
