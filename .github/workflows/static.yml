@@ -28,7 +28,9 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
+      - uses: AppThreat/sast-scan-action@master
         with:
+          type: "javascript"
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
