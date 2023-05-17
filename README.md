@@ -1,4 +1,4 @@
-# DevOsp atividade somativa 2 
+#Jogo Mata Mosquito
 
 ## Link do App Mata Mosquito 🦟
 https://elson07.github.io/devops-atividade-somativa2/index.html
