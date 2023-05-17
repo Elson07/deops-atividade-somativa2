@@ -1,4 +1,4 @@
-#Jogo Mata Mosquito
+# Jogo Mata Mosquito
 
 ## Link do App Mata Mosquito 🦟
 https://elson07.github.io/devops-atividade-somativa2/index.html
